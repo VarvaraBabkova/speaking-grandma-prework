@@ -1,6 +1,9 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma (str)
   upstr = str.upcase
+  if str == "I LOVE YOU GRANDMA!"
+    return "I LOVE YOU TOO PUMPKIN!"
+  end
   if str != upstr
     return "HUH?! SPEAK UP, SONNY!"
   else
